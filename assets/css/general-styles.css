@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*  
+    Fonts:
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Raleway', sans-serif;
+
+
+    Colors :
+            #EA8677  : Hot pink
+            #A2A9B0 : Gray 
+            #F3A949 : Yellow
+            #F9DBDB : Light Pink
+            #000    : Black
+            #FFF    : White 
+            #E0F5EA : Light Blue
+            #999999 : 
+*/
+/* ---------------GENEL STİLLER--------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 99vw;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1605px;
+    margin: auto;
+}
+
+.container-half {
+    width: 100%;
+    max-width: 681px;
+    /* position: absolute; */
+    /* left: 0; */
+}
+
+
+
+/* Background Colors--------------------------------------------------- */
+.bg-lightblue {
+    background-color: #e0f5ea;
+}
+
+.bg-white {
+    background-color: #FFF !important;
+}
+
+.bg-black {
+    background-color: #000 !important;
+}
+
+.bg-hotpink {
+    background-color: #EA8677 !important;
+}
+
+.bg-gray {
+    background-color: #A2A9B0 !important;
+}
+
+.bg-none {
+    background: none !important;
+}
+
+.bg-lightpink {
+    background-color: #F9DBDB !important;
+}
+
+.bg-yellow {
+    background-color: #F3A949 !important;
+}
+
+/* Text Colors------------------------------------------------------- */
+
+.text-white {
+    color: #FFF !important;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.text-hotpink {
+    color: #EA8677 !important;
+}
+
+.text-gray {
+    color: #666666 !important;
+}
+
+
+
+/* Konumlandırma------------------------------------------------------- */
+.margin-auto {
+    margin: auto !important;
+}
+
+.pd16-48 {
+    padding: 16px 48px;
+}
+
+.pd10-16 {
+    padding: 10px 16px;
+}
+
+.pd13 {
+    padding: 13px;
+}
+
+.pd16-23 {
+    padding: 16px 23px;
+}
+
+.flex-row {
+    flex-direction: row !important;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.col-reverse {
+    flex-direction: column-reverse !important;
+}
+
+.row-reverse {
+    flex-direction: row-reverse !important;
+}
+
+.align-center {
+    align-items: center !important;
+}
+
+.flex-center {
+    justify-content: center !important;
+}
+
+.display-flex {
+    display: flex !important;
+    /* align-items: center !important; */
+
+}
+
+.mt0 {
+    margin-top: 0 !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-end {
+    align-items: flex-end !important;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.justify-center {
+    justify-content: center !important;
+}
+
+/* Boyutlandırma------------------------------------------------------- */
+.flex-grow1 {
+    flex-grow: 1;
+}
+
+.flex-grow2 {
+    flex-grow: 2;
+}
+
+.flex-grow3 {
+    flex-grow: 3;
+}
+
+.flex-grow4 {
+    flex-grow: 4;
+}
+
+.flex-grow5 {
+    flex-grow: 5;
+}
+
+.flex-grow6 {
+    flex-grow: 6;
+}
+
+.flex-grow7 {
+    flex-grow: 7;
+}
+
+.flex-grow8 {
+    flex-grow: 8;
+}
+
+.height100 {
+    height: 100%;
+}
+
+.mwidth100 {
+    max-width: 100% !important;
+}
+
+.flex1050 {
+    flex: 1 0 50%;
+}
+
+/* --------------TİTLE AND TEXTS------------------ */
+
+.page-title {
+    color: var(--Z-Black-000, #000);
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 86px;
+    /* 119.444% */
+}
+
+.section-title {
+    color: var(--Z-Black-000, #000);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63.984px;
+    width: fit-content;
+    max-width: 550px;
+    /* 133.3% */
+}
+
+.section-subtitle {
+    color: var(--Z-Black-000, #000);
+    font-variant-numeric: lining-nums proportional-nums;
+    /* Headings Bold/32px */
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+    /* 134.375% */
+}
+
+.section-text {
+    color: var(--Text-Body-Text, #666);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.learn-more-btn p {
+    color: #EA8677;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 21px */
+}
+
+p {
+    color: var(--Text-Body-Text, #666);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+/* -------------BUTTON AND İMAGES--------------------- */
+
+.black-btn {
+    color: var(--Z-White-FFF, #FFF);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 21px */
+    border-radius: 24px;
+    background: var(--Z-Black-000, #000);
+    padding: 16px 48px;
+    border: none;
+    cursor: pointer;
+}
+
+.img-setting {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.learn-more-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    justify-content: start;
+}
+
+.learn-more-btn p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 21px */
+}
+
+.learn-more-btn svg {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+/* ----------------------CTA ---------------------- */
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 640px;
+}
+
+.cta-bg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 792px;
+    height: 100%;
+    /* position: absolute; */
+    z-index: 0;
+}

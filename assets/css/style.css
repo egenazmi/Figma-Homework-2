@@ -1,0 +1,366 @@
+/* ----------------------NAVBAR---------------------------------- */
+header {
+    position: fixed;
+    z-index: 1111;
+    width: 100%;
+    background-color: #F2F4F5;
+}
+
+.nav-bar {
+    max-width: 1605px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: var(--Z-White-FFF, #FFF);
+    padding: 40px 0;
+}
+
+.logo {
+    width: 176px !important;
+    height: 73px !;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.nav-link {
+    min-width: 150px;
+}
+
+/* ----------------------NAVBAR ENDS HERE--------------------------- */
+
+/* ----------------------CTA 1 STARTS HERE--------------------------- */
+
+.cta-content {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 40px;
+    z-index: 111;
+}
+
+.cta-bg-side {
+    flex: 1 0 50%;
+    min-height: 792px;
+    min-width: 600px;
+    height: 100%;
+    z-index: 0;
+}
+
+.cta-btn-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.cta-btn {
+    display: flex;
+    padding: 12px 13.5px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 24px;
+    border: 1px solid var(--Z-Black-000, #000);
+}
+
+.cta-btn-check {
+    width: 24px;
+    height: 24px;
+}
+
+.cta-btn-text {
+    color: var(--Z-Black-000, #000);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 21px */
+}
+
+/* ----------------------CTA 1 ENDS HERE--------------------------- */
+
+/* ----------------------COUNTER STARTS HERE-------------------------*/
+
+.counter-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0;
+    width: 100%;
+}
+
+.counter-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* ----------------------COUNTER ENDS HERE-------------------------*/
+
+
+/* ----------------------CONTENT 1 STARTS HERE-------------------------*/
+.cnt-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#cnt1-cnt {
+    justify-content: space-evenly !important;
+}
+
+.cnt1-image-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+}
+
+.cnt1-side {
+    flex: 1 0 50%
+}
+
+.cnt1-col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 16px;
+}
+
+.cnt1-img1 {
+    width: 192px;
+    height: 208px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.cnt1-img2 {
+    width: 88px;
+    height: 96px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.cnt1-img3 {
+    width: 296px;
+    height: 342px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin-top: 65px;
+}
+
+.cnt1-text-area {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 120px;
+}
+
+.section-text {
+    width: 427px;
+}
+
+.cnt1-text-area .text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: fit-content;
+}
+
+.cnt1-btn {
+    width: fit-content;
+}
+
+/* ----------------------CONTENT 1 ENDS HERE-------------------------*/
+
+/* ----------------------CTA 2 STARTS HERE-------------------------*/
+#cta2 {
+    min-height: 792px;
+    height: 100%;
+}
+
+.cta-bg-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-btn {
+    width: 104px;
+    height: 104px;
+}
+
+
+/* ----------------------CTA 2 ENDS HERE-------------------------*/
+
+/* ----------------------Contents STARTS HERE-------------------------*/
+.content {
+    display: flex;
+    min-height: 648px;
+    justify-content: space-around;
+}
+
+.cnt-content {
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cnt2-img {
+    width: 296px;
+    height: 342px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--Black-Black-10, #A2A9B0);
+}
+
+.cnt3-img {
+    width: 400px;
+    height: 462px;
+    flex-shrink: 0;
+    border-radius: 10.784px;
+}
+
+.cnt4-img {
+    width: 502px;
+    height: 342px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.cnt-text-area {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-left: 20px;
+    max-width: 502px;
+    width: 100%;
+}
+
+.learn-more-btn {
+    width: 502px;
+
+}
+
+/* ----------------------Contents ENDS HERE-------------------------*/
+
+
+
+/* ----------------------Cta 3 STARTS HERE-------------------------*/
+.cnt3-btn {
+    width: fit-content;
+}
+
+/* ----------------------Cta 3 ENDS HERE-------------------------*/
+
+
+
+/* ----------------------Phone Boxs STARTS HERE-------------------------*/
+.phone-box {
+    min-height: 648px;
+    justify-content: space-around;
+    padding: 70px 0;
+    flex-wrap: wrap;
+}
+
+.pb-text-center {
+    gap: 32px;
+    padding: 20px 0;
+    min-width: 547px;
+}
+
+.pb-text {
+    max-width: 502px;
+    width: 100%;
+}
+
+/* ----------------------Phone Boxs ENDs HERE-------------------------*/
+
+/* ----------------------Cta Big STARTS HERE-------------------------*/
+#ctabig .container {
+    gap: 50px;
+}
+
+/* ----------------------Cta Big ENDS HERE-------------------------*/
+
+/* ----------------------Footer Starts HERE-------------------------*/
+footer {
+    background-color: black;
+
+}
+
+.footer-body {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 454px;
+}
+
+.footer-col {
+    gap: 24px;
+    padding-top: 80px;
+}
+
+.f-col-head {
+    color: var(--White-White-30, #F2F4F5);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.footer-links {
+    gap: 16px;
+}
+
+.footer-link {
+    color: var(--Z-White-FFF, #FFF);
+    padding: ;
+    /* Menu/16px Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.footer-row {
+    justify-content: space-between;
+}
+
+.footer-row p {
+    color: var(--Z-White-FFF, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.footer-logo {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* ----------------------Footer Ends HERE-------------------------*/
