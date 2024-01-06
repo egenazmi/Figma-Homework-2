@@ -1,43 +1,3 @@
-/* ----------------------NAVBAR---------------------------------- */
-header {
-    position: fixed;
-    z-index: 1111;
-    width: 100%;
-    background-color: #F2F4F5;
-}
-
-.nav-bar {
-    max-width: 1605px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    background: var(--Z-White-FFF, #FFF);
-    padding: 40px 0;
-}
-
-.logo {
-    width: 176px !important;
-    height: 73px !;
-    cursor: pointer;
-}
-
-.nav-links {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-basis: 50%;
-}
-
-.nav-link {
-    min-width: 150px;
-}
-
-/* ----------------------NAVBAR ENDS HERE--------------------------- */
-
 /* ----------------------CTA 1 STARTS HERE--------------------------- */
 
 .cta-content {
@@ -48,12 +8,16 @@ header {
     z-index: 111;
 }
 
-.cta-bg-side {
+.cta-side {
     flex: 1 0 50%;
     min-height: 792px;
     min-width: 600px;
     height: 100%;
     z-index: 0;
+}
+
+#cta1-image {
+    background-image: url(../img/1.png);
 }
 
 .cta-btn-row {
@@ -148,6 +112,7 @@ header {
     height: 208px;
     flex-shrink: 0;
     border-radius: 8px;
+    background-image: url(../img/2.jpg);
 }
 
 .cnt1-img2 {
@@ -155,6 +120,7 @@ header {
     height: 96px;
     flex-shrink: 0;
     border-radius: 8px;
+    background-image: url(../img/3.jpg);
 }
 
 .cnt1-img3 {
@@ -163,6 +129,7 @@ header {
     flex-shrink: 0;
     border-radius: 8px;
     margin-top: 65px;
+    background-image: url(../img/4.jpg);
 }
 
 .cnt1-text-area {
@@ -195,7 +162,7 @@ header {
     height: 100%;
 }
 
-.cta-bg-side {
+.cta-side {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -204,6 +171,10 @@ header {
 .play-btn {
     width: 104px;
     height: 104px;
+}
+
+#cta2-img {
+    background-image: url(../img/5.jpg);
 }
 
 
@@ -226,7 +197,7 @@ header {
     height: 342px;
     flex-shrink: 0;
     border-radius: 8px;
-    background: var(--Black-Black-10, #A2A9B0);
+    background-image: url(../img/6.jpg);
 }
 
 .cnt3-img {
@@ -234,6 +205,7 @@ header {
     height: 462px;
     flex-shrink: 0;
     border-radius: 10.784px;
+    background-image: url(../img/7.jpg);
 }
 
 .cnt4-img {
@@ -241,6 +213,7 @@ header {
     height: 342px;
     flex-shrink: 0;
     border-radius: 8px;
+    background-image: url(../img/8.jpg);
 }
 
 .cnt-text-area {
@@ -265,6 +238,10 @@ header {
 /* ----------------------Cta 3 STARTS HERE-------------------------*/
 .cnt3-btn {
     width: fit-content;
+}
+
+#cta3-img {
+    background-image: url(../img/9.jpg);
 }
 
 /* ----------------------Cta 3 ENDS HERE-------------------------*/
@@ -292,6 +269,15 @@ header {
 
 /* ----------------------Phone Boxs ENDs HERE-------------------------*/
 
+/* ----------------------Cta 4 STARTS HERE-------------------------*/
+
+
+#cta4-img {
+    background-image: url(../img/10.jpg);
+}
+
+/* ----------------------Cta 4 ENDS HERE-------------------------*/
+
 /* ----------------------Cta Big STARTS HERE-------------------------*/
 #ctabig .container {
     gap: 50px;
@@ -312,6 +298,7 @@ footer {
 }
 
 .footer-col {
+    min-width: 250px;
     gap: 24px;
     padding-top: 80px;
 }

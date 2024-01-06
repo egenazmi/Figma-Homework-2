@@ -314,7 +314,7 @@ p {
 }
 
 .img-setting {
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -342,6 +342,40 @@ p {
     flex-shrink: 0;
 }
 
+/* ----------------------NAVBAR---------------------------------- */
+
+.nav-bar {
+    max-width: 1605px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: var(--Z-White-FFF, #FFF);
+    padding: 40px 0;
+}
+
+.logo {
+    width: 176px !important;
+    height: 73px !;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.nav-link {
+    min-width: 150px;
+}
+
+/* ----------------------NAVBAR ENDS HERE--------------------------- */
+
 /* ----------------------CTA ---------------------- */
 
 .cta {
@@ -353,7 +387,7 @@ p {
     min-height: 640px;
 }
 
-.cta-bg {
+.cta-sides {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
