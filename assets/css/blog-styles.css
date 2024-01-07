@@ -1,0 +1,76 @@
+/* ----------------------Hero STARTS HERE-------------------------*/
+
+.hero-img2 {
+    background-image: url(../img/15.jpg);
+    width: 1023px;
+    background-position: 50%;
+}
+
+.hero div {
+    gap: 33px;
+}
+
+/* ----------------------Hero Ends HERE-------------------------*/
+
+/* ----------------------Blog Posts Starts HERE-------------------------*/
+
+.blog-posts {
+
+    flex-wrap: wrap;
+    gap: 80px 55px;
+    max-width: 1023px;
+    padding: 120px 0 80px 0;
+}
+
+.blog-post {
+    height: 456px;
+    width: 484px;
+    gap: 32px;
+}
+
+.post-img img {
+    width: 484px;
+    height: 272px;
+    object-fit: cover;
+}
+
+.post-body {
+    gap: 16px;
+}
+
+.post-title {
+    color: var(--Z-Black-000, #000);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.992px;
+    /* 133.3% */
+}
+
+.pages-btns {
+    gap: 16px;
+
+}
+
+.page-btn {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    display: inline-flex;
+    padding: 16px 23px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* ----------------------Blog Posts Ends HERE-------------------------*/

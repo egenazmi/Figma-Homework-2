@@ -1,0 +1,168 @@
+/* ----------------------Hero STARTS HERE-------------------------*/
+
+.hero-img1 {
+    background-image: url(../img/11.jpg);
+}
+
+/* ----------------------Hero Ends HERE-------------------------*/
+
+
+/* ----------------------Contents STARTS HERE-------------------------*/
+.content {
+    min-height: 648px;
+    justify-content: space-around;
+}
+
+.cnt-content {
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.cnt2-img {
+    width: 296px;
+    height: 342px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-image: url(../img/12.jpg);
+}
+
+.cnt3-img {
+    width: 400px;
+    height: 462px;
+    flex-shrink: 0;
+    border-radius: 10.784px;
+    background-image: url(../img/13.jpg);
+}
+
+.cnt-text-area {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-left: 20px;
+    max-width: 502px;
+    width: 100%;
+}
+
+.learn-more-btn {
+    width: 502px;
+
+}
+
+/* ----------------------Contents ENDS HERE-------------------------*/
+
+
+
+/* ----------------------Price Starts HERE-------------------------*/
+.price {
+    min-height: 920px;
+    padding: 120px 0;
+}
+
+.price-head {
+    gap: 16px;
+}
+
+.price-cards {
+    gap: 16px;
+    justify-content: center;
+}
+
+.money {
+    margin-top: 11px;
+}
+
+.price-card p:nth-child(3) {
+    margin-top: 24px;
+}
+
+.price-card {
+    border-radius: 8px;
+    border: 1px solid var(--Z-Black-000, #000);
+    width: 504px;
+    height: 504px;
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.price-btn {
+    display: flex;
+    width: 248px;
+    padding: 16px 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background: var(--Z-Black-000, #000);
+    margin-top: 35px;
+}
+
+
+/* ----------------------Price ENDS HERE-------------------------*/
+
+/* ----------------------CTA 2 STARTS HERE-------------------------*/
+#cta2 {
+    min-height: 792px;
+    height: 100%;
+}
+
+.cta-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-btn {
+    width: 104px;
+    height: 104px;
+}
+
+#cta2-img {
+    background-image: url(../img/14.jpg);
+}
+
+
+/* ----------------------CTA 2 ENDS HERE-------------------------*/
+
+/* ----------------------Phone Boxs STARTS HERE-------------------------*/
+.phone-box {
+    min-height: 648px;
+    justify-content: space-around;
+    padding: 70px 0;
+    flex-wrap: wrap;
+}
+
+.pb-text-center {
+    gap: 32px;
+    padding: 20px 0;
+    min-width: 547px;
+}
+
+.pb-text {
+    max-width: 502px;
+    width: 100%;
+}
+
+/* ----------------------Phone Boxs ENDs HERE-------------------------*/
+
+/* ----------------------Cta 3 STARTS HERE-------------------------*/
+.cnt3-btn {
+    width: fit-content;
+}
+
+#cta3-img {
+    background-image: url(../img/9.jpg);
+}
+
+/* ----------------------Cta 3 ENDS HERE-------------------------*/
+
+
+/* ----------------------Cta Big STARTS HERE-------------------------*/
+#ctabig .container {
+    gap: 50px;
+}
+
+/* ----------------------Cta Big ENDS HERE-------------------------*/
