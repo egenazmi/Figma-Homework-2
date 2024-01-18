@@ -1,194 +1,1467 @@
-/* ----------------------CTA 1 STARTS HERE--------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
-#cta1-image {
-    background-image: url(../img/1.png);
+
+/*? ..######...########.##....##.########.########.....###....##...... */
+/*? .##....##..##.......###...##.##.......##.....##...##.##...##...... */
+/*? .##........##.......####..##.##.......##.....##..##...##..##...... */
+/*? .##...####.######...##.##.##.######...########..##.....##.##...... */
+/*? .##....##..##.......##..####.##.......##...##...#########.##...... */
+/*? .##....##..##.......##...###.##.......##....##..##.....##.##...... */
+/*? ..######...########.##....##.########.##.....##.##.....##.######## */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
-/* ----------------------CTA 1 ENDS HERE--------------------------- */
+a {
+    color: #010101;
+}
 
-/* ----------------------COUNTER STARTS HERE-------------------------*/
-
-.counter-cards {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 40px 0;
+.container {
     width: 100%;
+    max-width: 1170px;
+    margin: auto;
 }
 
-.counter-card {
+.container-little {
+    max-width: 770px;
+    width: 100%;
+    margin: auto;
+}
+
+.container-middle {
+    max-width: 970px;
+    width: 100%;
+    margin: auto;
+}
+
+.section {
+    display: flex;
+}
+
+.section-head {
     display: flex;
     flex-direction: column;
+}
+
+/* ------------Background----------------- */
+.bg-settings {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+/* ------------Texts----------------- */
+.logo-text {
+    color: var(--Reading-Black, #010101);
+
+    /* Website / Heading / H3 - Bold */
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.page-title {
+    color: var(--Reading-Black, #010101);
+
+    /* Website / Heading / H2 - Bold */
+    font-family: Lato;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    /* 125% */
+}
+
+.section-title {
+    color: var(--Reading-Black, #010101);
+    text-align: center;
+
+    /* Website / Heading / H2 - Bold */
+    font-family: Lato;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    /* 125% */
+    margin-top: 15px;
+}
+
+.section-text {
+    max-width: 964px;
+    color: #6F6D71;
+    margin-top: 32px;
+}
+
+.section-subtitle {
+    color: var(--Reading-Black, #010101);
+    text-align: center;
+
+    /* Website / Heading / H4 - Bold */
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 200px;
+}
+
+.banner-subtitle {
+    color: var(--Reading-Black, #010101);
+    text-align: center;
+
+    /* Website / CTA / Normal - Bold */
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    /* 43.2px */
+}
+
+p {
+    /* Website / Body / 22 - 170% */
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 37.4px */
+}
+
+.blog-title {
+    color: var(--Reading-Black, #010101);
+
+    /* Website / Heading / H3 - Bold */
+    font-family: Lato;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 140%;
+    /* 58.8px */
+}
+
+.btn {
+    border: 3px solid var(--Reading-Black, #010101);
+    color: var(--Reading-Black, #010101);
+    background: none;
+    text-align: center;
+    /* Website / CTA / Normal - Bold */
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    /* 43.2px */
+    display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    text-align: center;
 }
 
-/* ----------------------COUNTER ENDS HERE-------------------------*/
-
-
-/* ----------------------CONTENT 1 STARTS HERE-------------------------*/
-
-.cnt1-side {
-    flex: 1 0 50%
+.card-title {
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
 
-.cnt1-col1 {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    gap: 16px;
+.card-subtitle {
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.cnt1-img1 {
-    width: 192px;
-    height: 208px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background-image: url(../img/2.jpg);
+.form-text {
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130.5%;
+    /* 31.32px */
 }
 
-.cnt1-img2 {
-    width: 88px;
-    height: 96px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background-image: url(../img/3.jpg);
+/*--------------Text Renk-------------*/
+.text-white {
+    color: white !important;
 }
 
-.cnt1-img3 {
-    width: 296px;
-    height: 342px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    margin-top: 65px;
-    background-image: url(../img/4.jpg);
+.text-black {
+    color: black !important;
 }
 
-.cnt1-text-area {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    margin-left: 120px;
+.text-gray {
+    color: #6F6D71 !important;
 }
 
-.cnt1-text-area .text {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    max-width: fit-content;
+.border-black {
+    border-color: black !important;
 }
 
-.cnt1-btn {
-    width: fit-content;
+.border-2px {
+    border-bottom-width: 2px !important;
 }
 
-/* ----------------------CONTENT 1 ENDS HERE-------------------------*/
-
-/* ----------------------CTA 2 STARTS HERE-------------------------*/
-#cta2 {
-    min-height: 792px;
-    height: 100%;
+/*--------------Konumlandırma-------------*/
+.align-center {
+    align-items: center !important;
 }
 
-.cta-side {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.align-left {
+    flex-wrap: wrap;
+    align-content: flex-start !important;
 }
 
-.play-btn {
-    width: 104px;
-    height: 104px;
+.text-center {
+    text-align: center !important;
 }
 
-#cta2-img {
-    background-image: url(../img/5.jpg);
+.text-left {
+    text-align: left !important;
 }
 
-
-/* ----------------------CTA 2 ENDS HERE-------------------------*/
-
-/* ----------------------Contents STARTS HERE-------------------------*/
-
-
-.cnt2-img {
-    width: 296px;
-    height: 342px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background-image: url(../img/6.jpg);
+.text-right {
+    text-align: right !important;
 }
 
-.cnt3-img {
-    width: 400px;
-    height: 462px;
-    flex-shrink: 0;
-    border-radius: 10.784px;
-    background-image: url(../img/7.jpg);
+.mg-auto {
+    margin: 0 auto;
 }
 
-.cnt4-img {
-    width: 502px;
-    height: 342px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background-image: url(../img/8.jpg);
+.display-flex {
+    display: flex !important;
 }
 
-
-
-/* ----------------------Contents ENDS HERE-------------------------*/
-
-
-
-/* ----------------------Cta 3 STARTS HERE-------------------------*/
-.cnt3-btn {
-    width: fit-content;
+.flex-column {
+    flex-direction: column !important;
 }
 
-#cta3-img {
-    background-image: url(../img/9.jpg);
+.flex-row {
+    flex-direction: row;
 }
 
-/* ----------------------Cta 3 ENDS HERE-------------------------*/
+.flex-row-reverse {
+    flex-direction: row-reverse !important;
+}
 
+.flex-column-revers {
+    flex-direction: column-reverse !important;
+}
 
+.gap100 {
+    gap: 100px !important;
+}
 
-/* ----------------------Phone Boxs STARTS HERE-------------------------*/
-.phone-box {
-    min-height: 648px;
+.gap16 {
+    gap: 16px !important;
+}
+
+.gap32 {
+    gap: 32px !important;
+}
+
+.mt32 {
+    margin-top: 32px !important;
+}
+
+.mt64 {
+    margin-top: 64px !important;
+}
+
+.mt16 {
+    margin-top: 16px !important;
+}
+
+.mt100 {
+    margin-top: 100px !important;
+}
+
+.mt200 {
+    margin-top: 200px;
+}
+
+.mt08 {
+    margin-top: 8px !important;
+}
+
+.mt0 {
+    margin-top: 0 !important;
+}
+
+.pd0 {
+    padding: 0 !important;
+}
+
+.justify-center {
+    justify-content: center !important;
+}
+
+.justify-right {
+    justify-content: right !important;
+}
+
+.pb200 {
+    padding-bottom: 200px !important;
+}
+
+/*--------------Boyutlandırma-------------*/
+.width100 {
+    width: 100% !important;
+}
+
+/*-----------HEADER STYLES STARTS HERE--------------------------------*/
+header {
     justify-content: space-around;
-    padding: 70px 0;
+    /* padding: 24px 0; */
+    background-color: #dddddd;
     flex-wrap: wrap;
 }
 
-.pb-text-center {
-    gap: 32px;
-    padding: 20px 0;
-    min-width: 547px;
+.logo-area {
+    gap: 14px;
 }
 
-.pb-text {
-    max-width: 502px;
+.nav-links {
+    gap: 35px;
+    flex-wrap: wrap;
+    height: 122px;
+}
+
+.nav-link {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    cursor: pointer;
+    color: var(--Reading-Black, #010101);
+    text-align: center;
+
+    /* Website / CTA / Normal - Regular */
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 43.2px */
+    margin: auto;
+    height: 100%;
+}
+
+.head-right {
+    gap: 34px;
+}
+
+#started-btn {
+    width: 158px;
+    height: 62px;
+}
+
+.pages, .project, .blog {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.pages-ul {
+    width: 733px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 0 0 150px 10px;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 122px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.pages-ul li:hover, .blog-ul li:hover, .project-ul li:hover {
+    background-color: #CDCBCF;
+}
+
+
+.pages-ul li, .project-ul li, .blog-ul li {
+    flex: 1 1 30%;
+
+}
+
+.pages-ul li a, .project-ul li a, .blog-ul li a {
+    padding: 10px;
+}
+
+.pages:hover {
+    .pages-ul {
+        visibility: visible;
+    }
+}
+
+.project-ul {
+    position: absolute;
+    visibility: hidden;
+    width: 493px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 0 0 150px 10px;
+    left: 0;
+    top: 122px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.project:hover {
+    .project-ul {
+        visibility: visible;
+    }
+}
+
+.project-ul li, .blog-ul li {
+    flex: 1 1 51%;
+}
+
+.blog:hover {
+    .blog-ul {
+        visibility: visible;
+    }
+}
+
+.blog-ul {
+    position: absolute;
+    visibility: hidden;
+    width: 341px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 0 0 150px 10px;
+    left: 0;
+    top: 122px;
+    text-align: left;
+    overflow: hidden;
+}
+
+
+
+
+/*-----------HEADER STYLES ENDS HERE--------------------------------*/
+
+/* -----------FOOTER STYLES STARTS HERE------------------------------ */
+footer {
+    background-color: #010101;
+    color: white;
+    padding: 143px 0;
+    min-height: 666px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-col-head {
+    margin-bottom: 34px;
+    margin-top: 0;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-col3-links li a, .footer-col p {
+    color: var(--Reading-Pure-White, #FEFEFE);
+
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+.footer-col3-links {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 42px;
+    max-width: 300px;
+}
+
+.footer-col3-links li {
+    min-width: 124px;
+}
+
+.footer-row:nth-child(2) {
+    min-height: 88px;
+    margin-top: 125px;
+    border-top: 3px solid #cdcbcf;
+    align-items: center;
+
+}
+
+.footer-row2-body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 110px;
+    flex-wrap: wrap;
+}
+
+.compadible-devices {
+    display: flex;
+    gap: 37px;
+}
+
+.compadible-devices-logos {
+    display: flex;
+    gap: 16px;
+}
+
+/* -----------FOOTER STYLES ENDS HERE------------------------------ */
+
+/* TODO ----------------------General-Styles-Ends-Here-----------------------------------------------------------------------------------------------------------------**/
+
+/*? .####.##....##.########..########.##.....## */
+/*? ..##..###...##.##.....##.##........##...##. */
+/*? ..##..####..##.##.....##.##.........##.##.. */
+/*? ..##..##.##.##.##.....##.######......###... */
+/*? ..##..##..####.##.....##.##.........##.##.. */
+/*? ..##..##...###.##.....##.##........##...##. */
+/*? .####.##....##.########..########.##.....## */
+/*-----------HERO STYLES STARTS HERE--------------------------------*/
+.hero {
+    min-height: 900px;
+    background-image: url(../img/ss1.jpg);
+    justify-content: space-between;
+    padding: 0 90px;
+}
+
+#hero-main {
+    gap: 35px;
+    max-width: 545px;
+}
+
+#hero-btn {
+    width: fit-content;
+    padding: 18px 100px;
+}
+
+.hero-socials ul {
+    gap: 40px;
+}
+
+/* -----------HERO STYLES ENDS HERE-------------------------------- */
+
+/* -----------ABOUT US STYLES STARTS HERE-------------------------------- */
+.satisfaction-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 106px;
+    margin-top: 100px;
+}
+
+.satisfaction-card {
+    max-width: 319px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-number {
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.card-title {
+    margin-top: 26px;
+}
+
+.card-text {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 30.6px */
+}
+
+.satisfaction-card p {
+    margin-top: 8px;
+}
+
+
+/* -----------ABOUT US STYLES ENDS HERE-------------------------------- */
+
+/* -----------OUR SERVİCE STYLES STARTS HERE-------------------------------- */
+.our-service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, minmax(370px, auto));
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.our-service-box {
+
+    padding: 47px;
+    justify-content: center;
+}
+
+.our-service-box:nth-child(1) {
+    background-image: url(../img/vs1.jpg);
+}
+
+.our-service-box:nth-child(3) {
+    background-image: url(../img/vs3.jpg);
+}
+
+.our-service-box:nth-child(4) {
+    background-image: url(../img/vs4.jpg);
+}
+
+.our-service-box:nth-child(5) {
+    background-image: url(../img/vs5.jpg);
+}
+
+.our-service-box:nth-child(6) {
+    background-image: url(../img/vs6.jpg);
+}
+
+.our-service-box:nth-child(2) {
+    background-image: url(../img/vs2.jpg);
+}
+
+.our-service-box h6 {
+    margin-top: 9px;
+}
+
+.box-left {
+    grid-column: 1/3;
+}
+
+.box-right {
+    grid-column: 2/4;
+}
+
+/* -----------OUR SERVİCE STYLES ENDS HERE-------------------------------- */
+
+/* -----------OUR PROCESS STYLES STARTS HERE-------------------------------- */
+.miles-esther-cards {
+    display: flex;
+    gap: 105px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.miles-esther-card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    min-width: 320px;
+    flex: 1;
+}
+
+.miles-esther-card P {
+    padding-top: 30px;
+    border-top: 1px solid #CDCBCF;
+}
+
+.miles-esther-card:nth-child(2) P {
+    border-top: 4px solid black;
+}
+
+
+/* -----------OUR PROCESS STYLES ENDS HERE-------------------------------- */
+
+/* -----------PRİCE STYLES STARTS HERE-------------------------------- */
+
+.price {
+    padding: 200px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+
+}
+
+.price-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 47px;
+    width: 470px;
+
+}
+
+.price-card .card-title {
+    margin-top: 62px;
+}
+
+.money-row {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.money-text {
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.money-number {
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.specs {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-top: 32px;
+    border-top: 1px solid #cdcbcf;
+    padding-top: 52px;
+    width: 382px;
+}
+
+.spec-row {
+    display: flex;
+    gap: 30px;
+}
+
+.spec-text {
+    color: var(--Action-Color-4, #010101);
+    /* Website / Body / Regular */
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130.5%;
+    /* 31.32px */
+}
+
+.price-cards button {
+    width: 224.449px;
+    height: 80px;
+    flex-shrink: 0;
+    border: 1px solid var(--Reading-Deactive, #CDCBCF);
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.price-card:nth-child(2) button {
+    border: 3px solid black;
+}
+
+
+/* -----------PRİCE STYLES ENDS HERE-------------------------------- */
+
+/* -----------OUR TEMAS STYLES STARTS HERE-------------------------------- */
+.teams-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.teams-card {
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 370px;
+    width: 370px;
+
+    padding: 133px 65px 0 65px;
+}
+
+.teams-card:nth-child(1) {
+    background-image: url(../img/ot1.jpg);
+}
+
+.teams-card:nth-child(2) {
+    align-items: center;
+    background-image: url(../img/ot2.jpg);
+}
+
+.teams-card:nth-child(3) {
+    background-image: url(../img/ot3.jpg);
+}
+
+.teams-card:nth-child(4) {
+    background-image: url(../img/ot4.jpg);
+}
+
+.teams-card:nth-child(5) {
+    background-image: url(../img/ot5.jpg);
+}
+
+.teams-card:nth-child(6) {
+    background-image: url(../img/ot6.jpg);
+}
+
+.teams-card .card-title {
+    margin-top: 0;
+}
+
+.socials ul {
+    gap: 19px;
+    margin-top: 35px;
+}
+
+
+/* -----------OUR TEMAS STYLES ENDS HERE-------------------------------- */
+
+/* -----------TRUSTED COMPANY STYLES STARTS HERE---------------------------- */
+.our-trusted-company {
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+.trusted-companys {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.trusted-company {
+    width: 292.5px;
+    height: 164.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trusted-company img {
+    cursor: pointer;
+
+}
+
+
+/* -----------TRUSTED COMPANY STYLES ENDS HERE------------------------------ */
+
+/*! ---------------------------------İNDEX-HTML-ENDS----------------------------------------------------------------------------------------------------------------*/
+/*? ....###....########...#######..##.....##.######## */
+/*? ...##.##...##.....##.##.....##.##.....##....##... */
+/*? ..##...##..##.....##.##.....##.##.....##....##... */
+/*? .##.....##.########..##.....##.##.....##....##... */
+/*? .#########.##.....##.##.....##.##.....##....##... */
+/*? .##.....##.##.....##.##.....##.##.....##....##... */
+/*? .##.....##.########...#######...#######.....##...  */
+
+/* -----------Banner STYLES Starts HERE------------------------------ */
+
+.page-banner {
+    background-image: url(..//img/bg2.jpg);
+    min-height: 566px;
+    gap: 35px;
+    padding-top: 165px;
+}
+
+/* -----------Banner STYLES ENDS HERE------------------------------ */
+
+/* -----------Testimony STYLES Starts HERE------------------------------ */
+.testimony {
+    padding-bottom: 200px;
+}
+
+.testimony img {
+    width: 530px;
+    height: 620px;
+}
+
+.testimony .section-body {
+    gap: 70px;
+}
+
+.testimony-body p {
+    margin-top: 32.5px;
+}
+
+.testimony-body .card-title {
+    margin-top: 37px;
+}
+
+.testimony-body .card-subtitle {
+    margin-top: 9px;
+}
+
+.page-btns {
+    gap: 40px;
+    margin-top: 59px;
+}
+
+.page-btn {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+/* -----------Testimony STYLES ENDS HERE------------------------------ */
+
+
+
+/*! ---------------------------------ABOUT-HTML-ENDS--------------------------------------------------------------------------------------------------------------*/
+
+/*?..#######..##.....##.########..########.########....###....##.....##..#####*/
+/*?.##.....##.##.....##.##.....##....##....##.........##.##...###...###.##....*/
+/*?.##.....##.##.....##.##.....##....##....##........##...##..####.####.#.....*/
+/*?.##.....##.##.....##.########.....##....######...##.....##.##.###.##..#####*/
+/*?.##.....##.##.....##.##...##......##....##.......#########.##.....##.......*/
+/*?.##.....##.##.....##.##....##.....##....##.......##.....##.##.....##.##....*/
+/*?..#######...#######..##.....##....##....########.##.....##.##.....##..#####*/
+
+/* -----------OUR-BLOG STYLES STARTS HERE------------------------------ */
+
+.our-blog {
+    padding-bottom: 200px;
+}
+
+.blog-card img {
+    width: 100%;
+    min-width: 470px;
+    height: 270px;
+    margin: auto;
+}
+
+.blog-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1470px;
     width: 100%;
 }
 
-/* ----------------------Phone Boxs ENDs HERE-------------------------*/
-
-/* ----------------------Cta 4 STARTS HERE-------------------------*/
-
-
-#cta4-img {
-    background-image: url(../img/10.jpg);
+.blog-card {
+    flex: 1 1 calc(33% - 30px);
+    max-width: 570px;
+    margin: auto;
 }
 
-/* ----------------------Cta 4 ENDS HERE-------------------------*/
+.blog-card-body {
+    padding: 32px 69px 32px;
+}
 
-/* ----------------------Cta Big STARTS HERE-------------------------*/
-#ctabig .container {
+.blog-card-btn {
+    width: 234px;
+    height: 80px;
+    padding: 19px 83px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-blog .page-btns {
+    margin-top: 122px;
+}
+
+/* -----------OUR-BLOG STYLES ENDS HERE------------------------------ */
+
+/*! ---------------------------------OUR-TEAMS-HTML-ENDS--------------------------------------------------------------------------------------------------------------*/
+
+/* ?..######..########.########...##.....##.####.######...#######  */
+/* ? .##....##.##.......##.....##.##.....##..##..##.......##...... */
+/* ? .##.......##.......##.....##.##.....##..##..##.......##...... */
+/* ? ..######..######...########..##.....##..##..##.......######.. */
+/* ? .......##.##.......##...##....##...##...##..##.......##...... */
+/* ? .##....##.##.......##....##....##.##....##..##.......##...... */
+/* ? ..######..########.##.....##....###....####..######..######## */
+
+/* TODO BU SAYFADA KOD YAZMAYA GEREK KALMADI */
+/*! ---------------------------------SERVİCE-HTML-ENDS--------------------------------------------------------------------------------------------------------------*/
+
+
+/* ..######...#######..##....##.########....###.....######..######## */
+/* .##....##.##.....##.###...##....##......##.##...##....##....##... */
+/* .##.......##.....##.####..##....##.....##...##..##..........##... */
+/* .##.......##.....##.##.##.##....##....##.....##.##..........##... */
+/* .##.......##.....##.##..####....##....#########.##..........##... */
+/* .##....##.##.....##.##...###....##....##.....##.##....##....##... */
+/* ..######...#######..##....##....##....##.....##..######.....##... */
+.contact {
+    padding-bottom: 200px;
+}
+
+.contact-forms {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+    flex: 1 0 50%;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #cdcbcf;
+}
+
+.big-form {
+    padding-bottom: 245px;
+    position: relative;
+}
+
+.big-form img {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+
+.form-row:last-child {
+    justify-content: space-between;
+}
+
+.form-btn {
+    width: 270px;
+    height: 80px;
+}
+
+/*! ---------------------------------CONTACT-US-HTML-ENDS-----------------------------------------------------------------------------------------------------------*/
+
+
+/* .########..########...#######........##.########..######..######## */
+/* .##.....##.##.....##.##.....##.......##.##.......##....##....##... */
+/* .##.....##.##.....##.##.....##.......##.##.......##..........##... */
+/* .########..########..##.....##.......##.######...##..........##... */
+/* .##........##...##...##.....##.##....##.##.......##..........##... */
+/* .##........##....##..##.....##.##....##.##.......##....##....##... */
+/* .##........##.....##..#######...######..########..######.....##... */
+
+
+
+/* -----------OUR-PROJECT STYLES STARTS HERE------------------------------ */
+.our-project {
+    padding-bottom: 200px;
+}
+
+.our-project .page-btns {
+    margin-top: 45px;
+}
+
+.our-project-cards {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.our-pr-card {
+    max-width: 570px;
+    width: 100%;
+}
+
+.our-pr-card img {
+    width: 100%;
+}
+
+.our-pr-card-body {
+    padding: 60px 49px;
+    gap: 59px;
+    justify-content: space-between;
+}
+
+.our-por-card-text {
+    gap: 8px;
+}
+
+.our-pr-card-btn {
+    border: none;
+    color: var(--Reading-Black, #010101);
+    text-align: center;
+
+    /* Website / Body / 20 - Auto */
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* -----------OUR-PROJECT STYLES ENDS HERE------------------------------ */
+
+/*! ---------------------------------OUR-PROJECT-HTML-ENDS-----------------------------------------------------------------------------------------------------------*/
+
+
+/* .########..########.########....###....####.##...... */
+/* .##.....##.##..........##......##.##....##..##...... */
+/* .##.....##.##..........##.....##...##...##..##...... */
+/* .##.....##.######......##....##.....##..##..##...... */
+/* .##.....##.##..........##....#########..##..##...... */
+/* .##.....##.##..........##....##.....##..##..##...... */
+/* .########..########....##....##.....##.####.######## */
+
+/* --------------------- DETAİL 1-------------------------------- */
+
+.our-project {
+    padding-bottom: 200px;
+}
+
+.project-details {
+    gap: 100px;
+    max-width: 970px;
+    width: 100%;
+}
+
+.detail img {
+    width: 100%;
+}
+
+.detail-content img {
+    max-width: 630px;
+}
+
+.detail-body {
+    color: #6F6D71;
+    max-width: 921px;
+    width: 100%;
+    max-height: 630px;
+}
+
+/* --------------------- DETAİL 2-------------------------------- */
+
+.detail-content {
+    gap: 40px;
+}
+
+.detail-content-specs {
+    max-width: 412px;
+}
+
+.detail-content-spec {
+    gap: 24px;
+}
+
+.detail-content-spec img {
+    height: 25px;
+    width: fit-content;
+}
+
+/*! ---------------------------------PROJECT-DETAİL-HTML-ENDS-------------------------------------------------------------------------------------------------------*/
+
+
+/* .########..########..####..######..####.##....##..######.. */
+/* .##.....##.##.....##..##..##....##..##..###...##.##....##. */
+/* .##.....##.##.....##..##..##........##..####..##.##....... */
+/* .########..########...##..##........##..##.##.##.##...#### */
+/* .##........##...##....##..##........##..##..####.##....##. */
+/* .##........##....##...##..##....##..##..##...###.##....##. */
+/* .##........##.....##.####..######..####.##....##..######.. */
+
+.price:nth-child(2) {
+    padding-top: 0px;
+}
+
+/*! ---------------------------------PRİCİNG-HTML-ENDS-------------------------------------------------------------------------------------------------------*/
+
+
+/* .########..##........#######...######.. */
+/* .##.....##.##.......##.....##.##....##. */
+/* .##.....##.##.......##.....##.##....... */
+/* .########..##.......##.....##.##...#### */
+/* .##.....##.##.......##.....##.##....##. */
+/* .##.....##.##.......##.....##.##....##. */
+/* .########..########..#######...######.. */
+
+.blog-page-card-body {
+    padding: 36px 53px 53px 53px;
+    gap: 59px;
+    justify-content: space-between;
+}
+
+/*! ---------------------------------BLOG-HTML-ENDS-----------------------------------------------------------------------------------------------------------------*/
+
+/* .########..##........#######...######.. */
+/* .##.....##.##.......##.....##.##....##. */
+/* .##.....##.##.......##.....##.##....... */
+/* .########..##.......##.....##.##...#### */
+/* .##.....##.##.......##.....##.##....##. */
+/* .##.....##.##.......##.....##.##....##. */
+/* .########..########..#######...######.. */
+/* .########..########.########....###....####.##...... */
+/* .##.....##.##..........##......##.##....##..##...... */
+/* .##.....##.##..........##.....##...##...##..##...... */
+/* .##.....##.######......##....##.....##..##..##...... */
+/* .##.....##.##..........##....#########..##..##...... */
+/* .##.....##.##..........##....##.....##..##..##...... */
+/* .########..########....##....##.....##.####.######## */
+.explanation {
+    padding-bottom: 200px;
+}
+
+.blog-title {
+    margin-top: 22px;
+}
+
+.explanation-texts {
+    margin-top: 32px;
+}
+
+.explanation-texts p {
+    color: #6F6D71;
+}
+
+.explanation h6 {
+    border-left: 7px solid black;
+    padding-left: 55px;
+    margin-left: 38px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: var(--Reading-Black, #010101);
+
+    /* Website / Heading / H4 - Bold */
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    /* 42px */
+}
+
+.explanation .img {
+    width: 970px !important;
+    height: 630px;
+    margin: auto;
+    margin-bottom: 68px;
+    margin-top: 100px;
+}
+
+.source {
+    padding: 67px 0;
+}
+
+/* -----------TAGS AND SHARE STYLES STARTS HERE------------------------------ */
+
+.tags-share p {
+    color: #6F6D71;
+}
+
+.tags-share {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 89px;
+    border-top: 1px solid #CDCBCF;
+}
+
+.share {
+    display: flex;
+    gap: 37px;
+    align-items: center;
+}
+
+.share-logos {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.share-logos img {
+    height: 25px;
+    max-width: 25px;
+}
+
+/* -----------TAGS AND SHARE STYLES ENDS HERE------------------------------ */
+
+/* -----------PAGE CHANGE STYLES STARTS HERE------------------------------ */
+
+.page-change-row .btn {
+    margin-top: 11px;
+}
+
+.page-change-row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-chance-col {
     gap: 50px;
 }
 
-/* ----------------------Cta Big ENDS HERE-------------------------*/
+.page-chance-texts {
+    gap: 12px;
+    max-width: 270px;
+}
+
+/* -----------PAGE CHANGE STYLES ENDS HERE------------------------------ */
+
+/* -----------LEAVE FORMS STYLES STARTS HERE------------------------------ */
+
+
+.leave-form-rows p {
+    color: #6F6D71;
+}
+
+.leave-form-rows span {
+    color: red;
+}
+
+.leave-form-rows .form {
+    flex: none;
+}
+
+.leave-form-rows .form:last-child {
+    height: 275px !important;
+    position: relative;
+}
+
+.leave-form-rows .form:last-child img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.leave-form-rows button {
+    width: 270px;
+    height: 80px;
+    position: relative;
+    left: calc(100% - 270px);
+    margin-top: 100px;
+
+}
+
+
+
+/* -----------LEAVE FORMS STYLES ENDS HERE------------------------------ */
+
+/*! ---------------------------------BLOG-DETAİL-HTML-ENDS----------------------------------------------------------------------------------------------------------*/
+
+/* ..######.....###....########..########.########.########. */
+/* .##....##...##.##...##.....##.##.......##.......##.....## */
+/* .##........##...##..##.....##.##.......##.......##.....## */
+/* .##.......##.....##.########..######...######...########. */
+/* .##.......#########.##...##...##.......##.......##...##.. */
+/* .##....##.##.....##.##....##..##.......##.......##....##. */
+/* ..######..##.....##.##.....##.########.########.##.....## */
+
+.our-pr-six-cards {
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 200px;
+}
+
+.our-pr-six-card {
+    width: 570px;
+    padding: 31px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.our-pr-six-card .btn {
+    width: 324px;
+    height: 80px;
+}
+
+/*! ---------------------------------CAREER-HTML-ENDS---------------------------------------------------------------------------------------------------------------*/
+
+
+/* ..#######..##.....##.########. */
+/* .##.....##.##.....##.##.....## */
+/* .##.....##.##.....##.##.....## */
+/* .##.....##.##.....##.########. */
+/* .##.....##.##.....##.##...##.. */
+/* .##.....##.##.....##.##....##. */
+/* ..#######...#######..##.....## */
+/* .########..########...#######...######..########..######...######. */
+/* .##.....##.##.....##.##.....##.##....##.##.......##....##.##....## */
+/* .##.....##.##.....##.##.....##.##.......##.......##.......##...... */
+/* .########..########..##.....##.##.......######....######...######. */
+/* .##........##...##...##.....##.##.......##.............##.......## */
+/* .##........##....##..##.....##.##....##.##.......##....##.##....## */
+/* .##........##.....##..#######...######..########..######...######. */
+
+
+/* TODO BU SAYFADA KOD YAZMAYA GEREK KALMADI */
+/*! ---------------------------------OUR-PROCESS-HTML-ENDS----------------------------------------------------------------------------------------------------------*/
+
+/* .##..........#####...##....... */
+/* .##....##...##...##..##....##. */
+/* .##....##..##.....##.##....##. */
+/* .##....##..##.....##.##....##. */
+/* .#########.##.....##.######### */
+/* .......##...##...##........##. */
+/* .......##....#####.........##. */
+
+#hero-404 {
+    gap: 35px;
+    max-width: 504px;
+}
+
+.page-not-found {
+    color: var(--Reading-Black, #010101);
+
+    /* Website / Heading / H3 - Bold */
+    font-family: Lato;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 140%;
+    /* 58.8px */
+}
+
+#hero-404 .btn {
+    height: 80px;
+    width: 270px;
+}
+
+.text-404 {
+    color: var(--Reading-Black, #010101);
+    text-align: left;
+    font-family: Lato;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110px;
+    /* 152.778% */
+    letter-spacing: 8.64px;
+}
+
+/*! ---------------------------------404-HTML-ENDS----------------------------------------------------------------------------------------------------------*/
